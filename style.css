@@ -4,24 +4,5 @@ body {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-}
-.container {
-  display: grid;
-  grid-template-columns: 40% 30% 40%;
-  gap: 1em;
-}
-.purple-box {
-  border: 2px solid red;
-}
-.harsh-box {
-  border: 3px solid green;
-}
-.navyblue-box {
-  border: 3px solid blue;
-}
-.white-short {
-  border: 3px solid blueviolet;
-}
-.white-long {
-  border: 3px solid yellow;
+  background-color: hsl(217, 19%, 35%);
 }
