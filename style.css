@@ -1,8 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: tomato;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 81%);
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1440px;
+}
+
+#grid {
+  position: absolute;
+  display: grid;
+  width: 95%;
+  margin: 0 auto;
+  height: 100vh;
+}
+/*DANIEL CLIFFORD*/
+.dan-cliff {
+  padding: 30px;
+  margin-top: 2%;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  width: 50%;
+  background-color: hsl(263, 55%, 52%);
+  margin-left: -1%;
+  height: 47vh;
+}
+.danimg {
+  border-radius: 30px;
+}
+.dan-cliff .who {
+  position: relative;
+  margin-left: 14%;
+  margin-top: -12.5%;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dan-cliff .who span {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.589);
+}
+.dan-cliff .img {
+  position: relative;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: -10%;
+}
+.dan-cliff h2 {
+  position: relative;
+  margin-top: -4%;
+  z-index: 1;
+}
+.dan-cliff .quote {
+  position: relative;
+  padding-top: 4px;
+  line-height: 1.5em;
+  color: rgba(255, 255, 255, 0.589);
+  font-size: small;
+}
+
+/*JONATHAN WALTERS*/
+.jon-walt {
+  width: 23em;
+  height: 45vh;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  padding: 30px;
+  margin-top: 2%;
+  margin-left: 50.1%;
+  position: absolute;
+}
+.jonimg {
+  border-radius: 30px;
+}
+.jon-walt .who {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -18%;
+  margin-left: 33%;
+}
+.jon-walt .who span {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.589);
+}
+.jon-walt h2 {
+  position: relative;
+  margin-top: 13%;
+}
+.jon-walt .quote {
+  line-height: 1.5em;
+  padding-top: 1px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.589);
+  font-size: small;
+}
+
+/*KIRA WHITTLE*/
+.kira-whit {
+  position: absolute;
+  background-color: white;
+  width: 20em;
+  height: 91vh;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 2%;
+  margin-left: 80%;
+  color: hsl(219, 29%, 14%);
+}
+.kiraimg {
+  border-radius: 30px;
+}
+.kira-whit .who {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 38%;
+  margin-top: -18%;
+}
+.kira-whit .who span {
+  font-weight: 500;
+  color: hsla(217, 30%, 14%, 0.651);
+}
+.kira-whit h2 {
+  position: relative;
+  margin-top: 17%;
+}
+.kira-whit .quote {
+  position: relative;
+  padding-top: 25px;
+  line-height: 1.5em;
+  color: hsla(217, 30%, 14%, 0.651);
+  font-size: small;
+}
+
+/*JEANETTE HARMON*/
+.jean-harm {
+  position: absolute;
+  background-color: white;
+  color: hsl(219, 29%, 14%);
+  margin-left: -1%;
+  margin-top: 27%;
+  height: 44vh;
+  border-radius: 10px;
+  padding: 30px;
+  width: 21.8em;
+}
+.jeanimg {
+  border-radius: 30px;
+}
+.jean-harm .who {
+  position: relative;
+  margin-left: 35%;
+  margin-top: -18%;
+  font-size: 14px;
+  font-weight: 600;
+}
+.jean-harm .who span {
+  font-weight: 500;
+  color: hsla(217, 30%, 14%, 0.651);
+}
+.jean-harm h2 {
+  position: relative;
+  margin-top: 10px;
+  padding-right: 3px;
+}
+.jean-harm .quote {
+  position: relative;
+  padding-top: 25px;
+  line-height: 1.5em;
+  color: hsla(217, 30%, 14%, 0.651);
+  font-size: small;
+}
+
+/*PATRICK ABRAMS*/
+.pat-ab {
+  position: absolute;
+  margin-left: 28%;
+  margin-top: 26.5%;
+  padding: 30px;
+  border-radius: 10px;
+  height: 44vh;
+  width: 50%;
+  color: white;
+  background-color: hsl(219, 29%, 14%);
+}
+.patsimg {
+  border-radius: 30px;
+  margin-top: 25px;
+}
+.pat-ab .who {
+  position: relative;
+  margin-left: 15%;
+  margin-top: -9.5%;
+}
+.pat-ab .who span {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.589);
+}
+.pat-ab h2 {
+  position: relative;
+  margin-top: 5px;
+  padding-right: 3px;
+  line-height: 1.2em;
+}
+.pat-ab .quote {
+  position: relative;
+  padding-top: 5px;
+  line-height: 1.5em;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.589);
 }
